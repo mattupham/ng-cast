@@ -1,10 +1,13 @@
 angular.module('video-player')
 
 .component('videoPlayer', {
-  // TODO
   controller: function() {
-    // this.tester = exampleVideoDate[0];
-    
+    console.log('currentVideo', this.currentVideo);
+    //console.log('this', this);
+  },
+
+  bindings: {
+    currentVideo: '<'
   },
   
   templateUrl: 'src/templates/videoPlayer.html'

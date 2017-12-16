@@ -3,11 +3,10 @@ angular.module('video-player')
 .component('app', {
   
   controller: function() {
-    this.data = exampleVideoData;
-    this.currentVideo = exampleVideoData[0];
+    this.videos = exampleVideoData;
+    this.currentVideo = this.videos[0];
+    //console.log('currentVideo', this.currentVideo);
   },
-  // TODO
-  
   
   templateUrl: 'src/templates/app.html'
 });

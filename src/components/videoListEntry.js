@@ -1,12 +1,15 @@
 angular.module('video-player')
 .component('videoListEntry', {
-  // TODO
   bindings: {
-    data: '<'
+    video: '<',
+    videos: '<'
   },
   
   controller: function() {
-    
+    //console.log(this);
+    //this.videos = exampleVideoData;
+    //this.currentVideo = this.videos[0];
+    //console.log('item', item);
   },
   
   
