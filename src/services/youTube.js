@@ -9,7 +9,7 @@ angular.module('video-player')
         q: query,
         type: 'video',
         maxResults: 5,
-        key: 'AIzaSyAJSCj30acO-5QCP4cSSmawkbN7hBOW0W0',
+        key: window.YOUTUBE_API_KEY,
         videoEmbeddable: 'true'
       }
     })
